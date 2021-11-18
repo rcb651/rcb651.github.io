@@ -1,0 +1,78 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione  
+
+*/
+
+html {
+	/* set up a background image */
+	
+background: url('../images/vikings-stadium.jpg') no-repeat;
+
+	
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	color: #4F2683;
+	font-size: 80px;
+}
+
+h2 {
+	background: #FFC62F;
+	padding: 5px;
+}
+
+p {
+	color: white;
+}
+
+img {
+	text-decoration: none;
+}
+ 
+#container {
+	background: black;
+	width: 600px;
+	position: sticky;
+	left: 10px;
+	top: 10px;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+		
+body {
+	font-family: 'Roboto', sans-serif;
+}
